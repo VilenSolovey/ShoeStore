@@ -1,0 +1,35 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-content h3,
+.footer-content h4 {
+    margin: 10px 0;
+}
+
+.social-media {
+    margin: 15px 0;
+}
+
+.social-media a {
+    color: #1e90ff;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}

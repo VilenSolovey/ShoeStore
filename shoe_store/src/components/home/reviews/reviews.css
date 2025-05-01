@@ -1,0 +1,94 @@
+.comments-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 40px
+  }
+  .comments-box:not(:last-child) {
+       margin-right: 10px; 
+  }
+  .comments-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(166, 131, 34);
+    margin-bottom: 20px;
+  }
+  
+  .comments-container p {
+    font-size: 18px;
+    color: #777;
+    max-width: 500px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+  }
+  
+  .comments-box {
+    flex-direction: row;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 auto; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .comments-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  
+  .name-user strong {
+    color: #333;
+    font-size: 23px;
+  }
+  
+  .reviews {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .client-comments p {
+    color: #555;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  
+  .arrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .arrow-btn {
+    background-color: transparent; 
+    border: none; 
+    color: #1e90ff; 
+    font-size: 1.5rem; 
+    margin: 0 10px; 
+    cursor: pointer; 
+    transition: transform 0.3s; 
+  }
+  
+  .arrow-btn:hover {
+    transform: scale(1.1); 
+  }
+  .star {
+    width: 50px; 
+    height: auto; 
+  }
